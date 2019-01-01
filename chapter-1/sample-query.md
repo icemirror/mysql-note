@@ -220,3 +220,8 @@ mysqlmysql
 ```
 SQL> UPDATE table_name set field=CONCAT(field, '', str);
 ```
+
+### 参考内容
+
+- [Oracle查询优化改写2.0(技巧与案例)](https://book.douban.com/subject/30253259/)
+- [MySql - w3cshool](https://www.w3cschool.cn/mysql/mysql-tutorial.html)
