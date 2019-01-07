@@ -239,12 +239,6 @@ SQL> SELECT DATE('2019-01-07 13:58:40') AS DATE()
 EXTRACT(unit FROM date)
 ```
 
-
-header 1 | header 2
----|---
-row 1 col 1 | row 1 col 2
-row 2 col 1 | row 2 col 2
-
 unit值 | 含义
 ---|---
 YEAR  | 年
