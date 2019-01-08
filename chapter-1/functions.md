@@ -365,3 +365,75 @@ rootroot
 mysqlmysql
 ...
 ```
+
+- ### SUBSTRING()
+
+> 使用SUBSTRING()函数实现对字符串对截取
+
+##### 1. 从左开始截取字符串
+
+```
+// 用法
+left (str, length) {
+    /**
+     * @param {String} str 字符串
+     * @param {Number} length 需要截取的长度
+     */
+}
+```
+
+##### 2. 从右开始截取字符串
+
+```
+// 用法
+right (str, length) {
+    /**
+     * @param {String} str 字符串
+     * @param {Number} length 需要截取的长度
+     */
+}
+```
+
+##### 3. 截取字符串
+
+```
+// 用法
+substring (str, pos) {
+    /**
+     * @param {String} str 字符串
+     * @param {Number} pos 从第几位开始截取
+     */
+}
+
+substring (str, pos, length) {
+    /**
+     * @param {String} str 字符串
+     * @param {Number} pos 从第几位开始截取
+     * @param {Number} length 截取长度
+     */
+}
+```
+
+##### 4. 按关键字截取字符串
+
+```
+// 用法
+substring_index (str, delim, count){
+    /**
+     * @param {String} str 被截取字符串
+     * @param {String} delim 关键字
+     * @param {Number} count 关键字出现的次数
+     */
+}
+
+SELECT SUBSTRING_INDEX('www.w3school.cn', '.', 2) AS SUBSTRING_INDEX
+
++--------------------
+| SUBSTRING_INDEX
+| www.w3school
++--------------------
+
+PS: 如果count是负数, 如-1 则是从右往左第一个(倒数第一个)关键字.
+
+```
+
