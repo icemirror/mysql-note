@@ -437,3 +437,22 @@ PS: 如果count是负数, 如-1 则是从右往左第一个(倒数第一个)关�
 
 ```
 
+- ### substr()
+
+> 使用substr()函数实现对字符串对截取
+
+```
+// 用法
+substr (str, start, length) {
+    /**
+     * @param {String} str 字符串
+     * @param {Number} start 开始位置(从1开始)
+     * @param {Number} length 长度
+     */
+}
+```
+
+```
+SELECT SUBSTR('201701', 1, 2) // => 20
+// 代表对'201701'从第一位开始,截取2位字符.
+```
